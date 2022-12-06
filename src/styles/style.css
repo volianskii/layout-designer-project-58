@@ -12,7 +12,7 @@ body {
   overflow-x: hidden;
 }
 
-#header::before,  #ikea-effect::before{
+#header::before,  #ikea-effect::before, #premature-optimization::before, #distortion-of-novelty::before, #hyperbolic-depreciation::before, #errors-in-planning::before {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -25,7 +25,7 @@ body {
   opacity: 0.1;
 }
 
-header, section {
+header, section, footer {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -84,6 +84,7 @@ h1 {
 
 h2 {
   font-size: 60px;
+  color: #FE8A02;
 }
 
 h3 {
@@ -123,12 +124,12 @@ h3 {
   color: white;
 }
 
-p {
+p, li {
   font-size: 16px;
   font-family: "Open Sans";
   line-height: 1.6em;
   font-weight: 400;
-  color: #2A2626;
+  /* color: #2A2626; */
   /* margin-top: 0px;
   margin-bottom: 0px; */
 }
@@ -166,6 +167,9 @@ p {
 .brown {
   background-color: #B09A81;
 }
+.black_text {
+color: #2A2626;
+}
 
 .special_header2 {
   margin-bottom: 4px;
@@ -174,7 +178,7 @@ p {
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 700;
-  color: white;
+  /* color: white; */
   text-transform: uppercase;
   margin: 5px 10px;
 }
@@ -210,7 +214,7 @@ p {
 }
 
 .special_header {
-  font-size: 60px;
+  /* font-size: 60px; */
   padding-bottom: 30px;
 }
 
@@ -274,4 +278,66 @@ p {
   font-weight: normal;
   line-height: 41px;
   margin: 0px;
+}
+
+.white_text {
+  color: white;
+}
+.brown_text {
+  color: #B09A81;
+}
+.grey_text {
+  color: #D7CCC0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 55px;
+}
+
+.px18 {
+  font-size: 18px;
+}
+.px12 {
+  font-size: 12px;
+}
+
+input {
+  height: 50px;
+  border: none;
+  padding: 0px 15px;
+  width: 385px;
+}
+
+.form_button {
+  height: 50px;
+  width: 70px;
+  background-color: #FE8A02;
+  position: relative;
+  border: none;
+}
+
+.form_button::before {
+  content: "";
+  background-image: url("../images/send.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 13px;
+  left: 22px;
+  
+  /* position: relative;
+  top: 25px;
+  left: 35px; */
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  align-items: center; */
 }
