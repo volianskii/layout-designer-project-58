@@ -161,6 +161,9 @@ p, li {
 .white {
  background-color: white;
 }
+.soft_white {
+  background-color: #F5F4F0;
+}
 .black {
   background-color: #42413C;
 }
@@ -300,9 +303,11 @@ color: #2A2626;
 
 .px18 {
   font-size: 18px;
+  margin-bottom: 9px;
 }
 .px12 {
   font-size: 12px;
+  margin-top: 3px;
 }
 
 input {
@@ -340,4 +345,22 @@ input {
   flex-direction: row;
   /* justify-content: center;
   align-items: center; */
+}
+
+.contact {
+margin-top: 60px;
+}
+
+.contact p {
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+}
+
+.contact a {
+  color: #007DC1;
+}
+
+.footer>p {
+  margin: 55px 0px;
 }
