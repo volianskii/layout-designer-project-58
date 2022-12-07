@@ -14,11 +14,11 @@ body {
   overflow-x: hidden;
 }
 
-#header::before,  
-#ikea-effect::before, 
-#premature-optimization::before, 
-#distortion-of-novelty::before, 
-#hyperbolic-depreciation::before, 
+#header::before,
+#ikea-effect::before,
+#premature-optimization::before,
+#distortion-of-novelty::before,
+#hyperbolic-depreciation::before,
 #errors-in-planning::before {
   position: absolute;
   top: 0;
@@ -32,7 +32,9 @@ body {
   opacity: 0.1;
 }
 
-header, section, footer {
+header,
+section,
+footer {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -118,6 +120,20 @@ h3 {
   flex: 1 1 0;
 }
 
+p,
+li {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
+  font-weight: 400;
+
+  /* color: #2A2626; */
+
+  /* margin-top: 0;
+
+  margin-bottom: 0; */
+}
+
 .header-button {
   background-color: #fe8a02;
   margin-top: 24px;
@@ -128,26 +144,15 @@ h3 {
 }
 
 .header-button p {
-  margin: 0px;
+  margin: 0;
   font-weight: bold;
   color: white;
-}
-
-p, 
-li {
-  font-size: 16px;
-  font-family: "Open Sans";
-  line-height: 1.6em;
-  font-weight: 400;
-
-  /* color: #2A2626; */
-  /* margin-top: 0;
-  margin-bottom: 0; */
 }
 
 .video {
 
   /* position: relative;
+
   top: 200px; */
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   z-index: 2;
@@ -172,7 +177,7 @@ li {
 }
 
 .white {
- background-color: white;
+  background-color: white;
 }
 
 .soft-white {
@@ -188,7 +193,7 @@ li {
 }
 
 .black-text {
-color: #2a2626;
+  color: #2a2626;
 }
 
 .special-header2 {
@@ -196,7 +201,7 @@ color: #2a2626;
 }
 
 .special-header2 h3 {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
 
@@ -220,6 +225,7 @@ color: #2a2626;
   column-gap: 30px;
 
  /*  justify-content: space-between; */
+
   /* align-items: center; */
 }
 
@@ -259,19 +265,19 @@ color: #2a2626;
   padding: 24px;
 }
 
-.box h2, 
+.box h2,
 .box-high h2 {
   font-size: 52px;
 }
 
-.box h1, 
+.box h1,
 .box-high h1 {
   margin-bottom: 40px;
   font-size: 64px;
   line-height: 1;
 }
 
-.box h3, 
+.box h3,
 .box-high h3 {
 
   /* margin-bottom: 16px; */
@@ -279,7 +285,7 @@ color: #2a2626;
 }
 
 .contact {
-margin-top: 60px;
+  margin-top: 60px;
 }
 
 .contact p {
@@ -296,26 +302,27 @@ margin-top: 60px;
   margin: 55px 0;
 }
 
-.box:hover, .box-high:hover {
+.box:hover,
+.box-high:hover {
 
   /* дополнить для всех типов текста */
   background-color: #fe8a02;
   color: white;
 }
 
-.box:hover h2, 
-.box:hover h1, 
-.box:hover h3, 
-.box:hover p, 
-.box:hover h2 span { 
+.box:hover h2,
+.box:hover h1,
+.box:hover h3,
+.box:hover p,
+.box:hover h2 span {
   color: white;
 }
 
-.box-high:hover h2, 
-.box-high:hover h1, 
-.box-high:hover h3, 
-.box-high:hover p, 
-.box-high:hover h2 span { 
+.box-high:hover h2,
+.box-high:hover h1,
+.box-high:hover h3,
+.box-high:hover p,
+.box-high:hover h2 span {
   color: white;
 }
 
@@ -325,13 +332,13 @@ margin-top: 60px;
   height: 323px;
 }
 
-.line-flex-marg a, 
+.line-flex-marg a,
 .line-flex a {
   text-decoration: none;
 }
 
 .Neucha24 {
-  font-family: Neucha;
+  font-family: Neucha, "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: normal;
   color: #908d8b;
@@ -339,7 +346,7 @@ margin-top: 60px;
 }
 
 .Neucha34 {
-  font-family: Neucha;
+  font-family: Neucha, "Open Sans", sans-serif;
   font-size: 34px;
   font-weight: normal;
   line-height: 41px;
@@ -402,7 +409,9 @@ input {
   left: 22px;
   
   /* position: relative;
+
   top: 25px;
+
   left: 35px; */
 }
 
@@ -411,5 +420,6 @@ input {
   flex-direction: row;
 
   /* justify-content: center;
+
   align-items: center; */
 }
