@@ -8,9 +8,8 @@ Technologies used:
 -Flexbox;
 -Surge.
 
-Run the project:
--surge login;
--make deploy.
+Deploy:
+https://rich-cook.surge.sh/
 
 Проект "Когнитивные искажения"
 
@@ -22,6 +21,5 @@ Run the project:
 -Flexbox;
 -Surge.
 
-Запуск проекта:
--surge login;
--make deploy.
+Деплой:
+https://rich-cook.surge.sh/
